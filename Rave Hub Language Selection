@@ -73,5 +73,24 @@ local function createButtons()
     end
 end
 
+-- Create a button to copy the URL to the clipboard
+
+mainTab:CreateButton({
+    Name = "Tutorial - How to add mp3 files to the script.", 
+    Callback = function()
+        local url = "https://m.youtube.com/shorts/A055tEhraeA"  -- Replace with desired URL
+        setclipboard(url)  -- Copies the URL to the clipboard
+        Rayfield:Notify({
+            Title = "URL Copied",
+            Content = "The tutorial URL has been copied to your clipboard, paste it into your browser to see how to add mp3 files.",
+            Duration = 5,
+            Theme = "Ocean"
+        })
+    end
+})
+
+mainTab:CreateDivider("URL Copier")  -- Divider for the new section
+
+
 -- Create buttons for the predefined loadstrings
 createButtons()
