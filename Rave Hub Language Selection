@@ -19,7 +19,7 @@ local loadstrings = {
         Content = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/qdbi/Rave-Hub/refs/heads/main/Rave%20Hub%20Music%20Player%20%5BES%5D",true))()'
     },
     {
-        Name = "Rave Hub - Tocador de música [BR 🇧🇷]", 
+        Name = "Rave Hub - Tocador de música [PT 🇧🇷]", 
         Content = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/qdbi/Rave-Hub/refs/heads/main/Rave%20Hub%20Music%20Player%20%5BBR%5D",true))()'
     },
     {
